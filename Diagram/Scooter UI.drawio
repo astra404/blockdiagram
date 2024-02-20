@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T19:09:26.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0" etag="zBhiBACn6tsGY_ncxtx1" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T19:16:39.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0" etag="WUvXJN3pm5W5XOlARASL" version="23.1.5" type="github">
   <diagram name="Puslapis-1" id="ZAKRF1dTVsQCdEU3fz9g">
-    <mxGraphModel dx="1750" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -36,8 +36,14 @@
         <mxCell id="sZjmt84LJ8zzRJPLPaBu-8" value="Display logotype and fw version" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="143.5" y="190" width="155" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=52.5;exitDy=65;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sZjmt84LJ8zzRJPLPaBu-9" target="sZjmt84LJ8zzRJPLPaBu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sZjmt84LJ8zzRJPLPaBu-9" value="&lt;div&gt;Display &lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;BME Fail&quot;&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="345" y="392.5" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="sZjmt84LJ8zzRJPLPaBu-10" target="mmT15tX0c2wqUiGHglg3-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sZjmt84LJ8zzRJPLPaBu-10" value="Delay 6s" style="shape=delay;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="480" width="80" height="40" as="geometry" />
@@ -58,7 +64,12 @@
           <mxGeometry x="170" y="650" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-3" value="&lt;div&gt;Display &lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;ESC connection failed&quot;&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="343" y="660" width="112" height="80" as="geometry" />
+          <mxGeometry x="328" y="660" width="112" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-4" target="mmT15tX0c2wqUiGHglg3-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-4" value="Delay 1s" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="770" width="80" height="40" as="geometry" />
@@ -69,17 +80,32 @@
         <mxCell id="mmT15tX0c2wqUiGHglg3-5" value="&lt;br&gt;&lt;div&gt;Display &lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;ESC com ok&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="765" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mmT15tX0c2wqUiGHglg3-6" value="&lt;div&gt;Read gassmax and brakemax values &lt;br&gt;&lt;/div&gt;&lt;div&gt;from flash&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="mmT15tX0c2wqUiGHglg3-6" value="&lt;div&gt;Read Gmax &lt;br&gt;&lt;/div&gt;&lt;div&gt;and Bmax values &lt;br&gt;&lt;/div&gt;&lt;div&gt;from flash&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="90" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=65.625;exitDy=60;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-7" target="mmT15tX0c2wqUiGHglg3-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-7" value="Display gassmax and brakemax values " style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="571.5" y="155" width="129" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-8" target="mmT15tX0c2wqUiGHglg3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-8" value="Read brake lever value (Bdig)." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="570.5" y="235" width="130" height="70" as="geometry" />
+          <mxGeometry x="572" y="230" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-9" value="&lt;div&gt;Bdig- brake lever analog output read value, 0&amp;lt;Bdig≤&lt;span class=&quot;ILfuVd&quot; lang=&quot;en&quot;&gt;4096&lt;/span&gt;.&lt;/div&gt;&lt;div&gt;Gdig- throttle lever analog output read value, 0&amp;lt;Gdig≤4096.&lt;/div&gt;&lt;div&gt;Bmax- adc read value when brake lever is fully pressed.&lt;/div&gt;&lt;div&gt;Gmax- adc read value when throttle lever is fully pressed.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1040" width="340" height="70" as="geometry" />
+          <mxGeometry x="231.5" y="1020" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.003;entryY=0.461;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-10" target="mmT15tX0c2wqUiGHglg3-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="355" />
+              <mxPoint x="810" y="788" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-10" value="Bdig&amp;gt;2000" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="596" y="315" width="80" height="80" as="geometry" />
@@ -87,26 +113,49 @@
         <mxCell id="mmT15tX0c2wqUiGHglg3-12" value="&lt;div&gt;Display &lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Push to max in x &quot; and count down to 0 &lt;br&gt;&lt;/div&gt;&lt;div&gt;from 3 (1s delay betveen&lt;/div&gt;&lt;div&gt;&amp;nbsp;increments, x is updated to represent the increment)&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="499.75" y="415" width="271.5" height="105" as="geometry" />
         </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-13" target="mmT15tX0c2wqUiGHglg3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-13" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="620" y="10" width="50" height="50" as="geometry" />
+          <mxGeometry x="620" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-14" target="mmT15tX0c2wqUiGHglg3-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-14" value="&lt;div&gt;Display&lt;/div&gt;&lt;div&gt;&quot;Calibrating max&quot;&lt;br&gt;&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="571.5" y="555" width="134" height="75" as="geometry" />
+          <mxGeometry x="570" y="550" width="134" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-16" target="mmT15tX0c2wqUiGHglg3-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="720" />
+              <mxPoint x="640" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-16" value="Read brake and gass lever value (Bdig, Gdig)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="579" y="660" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-17" target="mmT15tX0c2wqUiGHglg3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-17" value="&lt;div&gt;Update Gmax and Bmax values.&lt;/div&gt;&lt;div&gt;(Gmin=Gdig&amp;nbsp; Bmin=Bdig)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="581" y="1030" width="120" height="60" as="geometry" />
+          <mxGeometry x="580.5" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-18" value="&lt;div&gt;Display &lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Push to min in x &quot; and count down to 0 &lt;br&gt;&lt;/div&gt;&lt;div&gt;from 3 (1s delay betveen&lt;/div&gt;&lt;div&gt;&amp;nbsp;increments, x is updated to represent the increment)&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="499.75" y="740" width="271.5" height="105" as="geometry" />
         </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-19" target="mmT15tX0c2wqUiGHglg3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-19" value="&lt;div&gt;Display&lt;/div&gt;&lt;div&gt;&quot;Calibrating min&quot;&lt;br&gt;&lt;/div&gt;" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="572" y="870" width="134" height="75" as="geometry" />
+          <mxGeometry x="572" y="870" width="134" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-20" target="mmT15tX0c2wqUiGHglg3-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-20" value="Read brake and gass lever value (Bdig, Gdig)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="581" y="960" width="120" height="60" as="geometry" />
+          <mxGeometry x="581" y="950" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-21" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="616" y="1100" width="50" height="50" as="geometry" />
@@ -143,6 +192,21 @@
         </mxCell>
         <mxCell id="mmT15tX0c2wqUiGHglg3-46" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="735" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=50;exitDy=80;exitPerimeter=0;entryX=0.425;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-3" target="mmT15tX0c2wqUiGHglg3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=65.625;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-6" target="mmT15tX0c2wqUiGHglg3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.504;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-10" target="mmT15tX0c2wqUiGHglg3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=143.4375;exitDy=105;exitPerimeter=0;entryX=0.539;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-12" target="mmT15tX0c2wqUiGHglg3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmT15tX0c2wqUiGHglg3-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=143.4375;exitDy=105;exitPerimeter=0;entryX=0.536;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mmT15tX0c2wqUiGHglg3-18" target="mmT15tX0c2wqUiGHglg3-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
